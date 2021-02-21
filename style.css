@@ -1,0 +1,131 @@
+.container {
+    width: 900px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    padding: 8px;
+}
+
+nav .logo{
+    float: left;
+    width: 15%;
+}
+
+ul {
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    
+}
+
+ul li {
+    float:left;padding:10px;
+    padding-top:0 ;
+
+}
+
+nav .button {
+    margin-left: 240px;
+}
+
+
+/* start map */
+
+section.map {
+    background-image: url('images/adaptive_clothing.png');
+    background-color: red;
+    overflow: hidden;
+    height: 286px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(44, 44, 44, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+/* end mar */
+
+
+/* start about */
+.about {
+    height: 286px;
+    overflow: hidden;
+
+}
+
+.about h3 {
+    text-align: center;
+}
+
+.about-us {
+    float: left;
+    width: 50%;
+}
+
+.about-us p {
+    line-height: 1.8;
+}
+
+.about-us p span {
+    color: red;
+}
+
+.imgDE {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.imgDE img {
+    width: 100%;
+}
+
+/* end about */
+
+
+/* satrt team */
+.speakers {
+    text-align: center;
+}
+
+.con {
+    background-color: rgb(156, 156, 156);
+    overflow: hidden;
+    padding: 30px;
+}
+
+.team {
+    width: 33.3333%;
+    float: left;
+}
+
+.team h4 {
+    margin: 0;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 129px;
+    height:129px ;
+}
+
+
+
+/* end team */
